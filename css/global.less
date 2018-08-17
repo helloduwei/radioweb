@@ -1,0 +1,194 @@
+/* css reset */
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 100%;
+}
+a img, :link img, :visited img {
+  border: 0px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+div {
+  box-sizing: border-box;
+}
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+/* 全局公用样式 */
+@minWidth: 1400px;
+@main_red: #f3243c;
+@main_deepRed: #a71828;
+@main_dark: #242031;
+// 首页头部底部特殊样式
+.header-index {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.footer-index {
+  background-color: @main_dark !important;
+  .join {
+    color: #fff !important;
+    background-color: @main_deepRed !important;
+  }
+}
+// 头部样式
+.header {
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  min-width: @minWidth;
+  height: 140px;
+  .content {
+    margin: 0 auto;
+    width: @minWidth;
+    line-height: 140px;
+    position: relative;
+    .logo {
+      width: 250px;
+      height: 80px;
+      vertical-align: middle;
+    }
+    .right {
+      display: inline-block;
+      margin: 0 0 0 27px;
+      line-height: normal;
+      font-family: '微软雅黑', '苹方-简', sans-serif;
+      .navigation {
+        display: inline-block;
+        vertical-align: middle;
+        li{
+          color: #fff !important;
+          font-size: 18px;
+          display: inline-block;
+          margin: 29px 10px;
+          cursor: pointer;
+          width: 78px;
+          text-align: center;
+          height: 42px;
+          line-height: 50px;
+          border-bottom: 6px solid transparent;
+          &:hover {
+            border-bottom: 6px solid @main_red;
+          }
+        }
+      }
+      .search {
+        width: 200px;
+        height: 40px;
+        vertical-align: middle;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 100px;
+        display: inline-block;
+        .icon {
+          vertical-align: text-bottom;
+          width: 22px;
+          height: 22px;
+          margin: 0 0 0 14px;
+        }
+        input {
+          background-color: transparent;
+          width: 150px;
+          height: 40px;
+          border: 0;
+          outline: none;
+          color: #fff;
+          margin: 0 0 17px;
+          font-size: 16px;
+        }
+      }
+      .language {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 4px;
+        line-height: 40px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0 0 0 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: @main_red;
+        font-size: 16px;
+      }
+    }
+  }
+}
+// 底部样式
+.footer {
+  width: 100%;
+  min-width: @minWidth;
+  height: 260px;
+  background-color: #a71828;
+  .content {
+    width: @minWidth;
+    height: 260px;
+    margin: 0 auto;
+    .logo {
+      float: left;
+      width: 250px;
+      height: 80px;
+      margin: 90px 0;
+    }
+    .des {
+      float: right;
+      width: 656px;
+      height: 260px;
+      line-height: 260px;
+      text-align: right;
+      .msg {
+        display: inline-block;
+        color: #fff;
+        font-family: '微软雅黑', sans-serif;
+        margin: 0 40px 0 0;
+        line-height: normal;
+        vertical-align: middle;
+        p {
+          font-size: 14px;
+          line-height: 30px;
+          margin: 0 0 32px 0;
+          span {
+            font-size: 16pt;
+          }
+        }
+        .join {
+          width: 200px;
+          height: 60px;
+          line-height: 60px;
+          font-size: 24px;
+          text-align: center;
+          background-color: #fff;
+          color: @main_red;
+          display: inline-block;
+        }
+      }
+      .qr {
+        display: inline-block;
+        text-align: center;
+        line-height: normal;
+        vertical-align: middle;
+        img {
+          width: 120px;
+          height: 120px;
+          margin: 0 0 10px 0;
+        }
+        p {
+          color: #fff;
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

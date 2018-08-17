@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <input type="text" id="inp">
+  <div id="out"></div>
+  <script>
+    var inp = document.querySelector('#inp')
+    var out = document.querySelector('#out')
+    console.log(inp)
+    inp.addEventListener('input', function(e) {
+      var val = e.target.value
+      if (!val) {
+        return 0
+      }
+
+      out.innerHTML = parseInt(val)*0.714
+    })
+  </script>
+</body>
+</html>

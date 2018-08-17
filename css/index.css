@@ -1,0 +1,278 @@
+/* 全局公用样式 */
+.textTitle {
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  font-size: 46px;
+  color: #dfe5e8;
+  text-align: center;
+  margin: 110px 0 90px 0;
+}
+.more {
+  width: 114px;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+}
+.more img {
+  width: 20px;
+  height: 30px;
+  margin: 0 14px 0 0;
+  vertical-align: middle;
+}
+/* 首页轮播样式 */
+.swiper {
+  width: 100%;
+  min-width: 1400px;
+  position: relative;
+}
+.swiper img {
+  width: 100%;
+}
+.pagination {
+  position: absolute;
+  top: 20px;
+  z-index: 20;
+  width: 100%;
+  text-align: center;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 9.2px;
+  cursor: pointer;
+}
+.swiper-active-switch {
+  background: #f3243c;
+}
+.swiper-control {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 160px;
+  top: 260px;
+}
+#swiper-prev,
+#swiper-next {
+  width: 110px;
+  height: 160px;
+  cursor: pointer;
+}
+#swiper-prev img,
+#swiper-next img {
+  width: 100%;
+  height: 100%;
+}
+#swiper-prev {
+  float: left;
+}
+#swiper-next {
+  float: right;
+}
+/* 图文样式 */
+.info {
+  width: 100%;
+  min-width: 1400px;
+  margin: -6px 0 0 0;
+  position: relative;
+  overflow: hidden;
+}
+.info .news {
+  height: 840px;
+  background-color: #4a1721;
+  overflow: hidden;
+}
+.info .news .title {
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  font-size: 46px;
+  color: #dfe5e8;
+  text-align: center;
+  margin: 110px 0 90px 0;
+}
+.info .news .article {
+  margin: 94px 0 0 0;
+  height: 430px;
+  clear: both;
+  position: relative;
+}
+.info .news .article .text {
+  width: 512px;
+  float: right;
+  margin: 0 50px 0 0;
+  color: #fff;
+}
+.info .news .article .text .articleTitle {
+  font-size: 40px;
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 40px 0 20px 0;
+}
+.info .news .article .text .details {
+  line-height: 36px;
+  font-size: 16px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.info .news .article .video {
+  width: 750px;
+  height: 430px;
+  display: block;
+  float: right;
+}
+.info .news .article .moreArt {
+  width: 114px;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  right: 760px;
+  bottom: 0;
+}
+.info .news .article .moreArt img {
+  width: 20px;
+  height: 30px;
+  margin: 0 14px 0 0;
+  vertical-align: middle;
+}
+.info .banners img {
+  width: 25%;
+  vertical-align: bottom;
+  height: auto;
+}
+.info .activity {
+  height: 1380px;
+  background-color: #f3243c;
+  overflow: hidden;
+}
+.info .activity .title {
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  font-size: 46px;
+  color: #dfe5e8;
+  text-align: center;
+  margin: 110px 0 90px 0;
+}
+.info .activity .item {
+  width: 1130px;
+  height: 440px;
+  margin: 0 auto;
+  font-family: '微软雅黑', '苹方－简', sans-serif;
+  clear: both;
+}
+.info .activity .item img {
+  float: left;
+  width: 565px;
+  height: 440px;
+}
+.info .activity .item .detail {
+  float: left;
+  background-color: #fff;
+  width: 565px;
+  height: 440px;
+  padding: 80px;
+}
+.info .activity .item .detail .sub {
+  font-size: 20px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 40px 0 20px 0;
+}
+.info .activity .item .detail .content {
+  font-size: 18px;
+  line-height: 38px;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.info .activity .moreline {
+  width: 1130px;
+  margin: 90px auto 0;
+  text-align: right;
+}
+.info .activity .moreline .moreAct {
+  width: 114px;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+  display: inline-block;
+}
+.info .activity .moreline .moreAct img {
+  width: 20px;
+  height: 30px;
+  margin: 0 14px 0 0;
+  vertical-align: middle;
+}
+.info .frequency {
+  height: 1800px;
+  overflow: hidden;
+  background-color: #474756;
+}
+.info .frequency .title {
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  font-size: 46px;
+  color: #dfe5e8;
+  text-align: center;
+  margin: 110px 0 90px 0;
+}
+.info .frequency .contents {
+  width: 1200px;
+  margin: 0 auto;
+}
+.info .frequency .contents .item {
+  width: 320px;
+  height: 310px;
+  display: inline-block;
+  margin: 0 80px 40px 0;
+}
+.info .frequency .contents .item img {
+  width: 100%;
+  height: 100%;
+}
+.info .down {
+  width: 100%;
+  height: 400px;
+  background-color: #a71828;
+  overflow: hidden;
+  clear: both;
+}
+.info .down .content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.info .down .content .name {
+  width: 450px;
+  height: 400px;
+  line-height: 400px;
+  float: left;
+  color: #dfe5e8;
+  text-align: left;
+  font-size: 46px;
+}
+.info .down .content .links {
+  width: 460px;
+  height: 400px;
+  float: right;
+}
+.info .down .content .links img {
+  width: 460px;
+  height: 120px;
+  margin: 60px 0 0 0;
+}
+.info .down .content .links img:last-child {
+  margin: 40px 0 0 0;
+}

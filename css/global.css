@@ -1,0 +1,190 @@
+/* css reset */
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-size: 100%;
+}
+a img,
+:link img,
+:visited img {
+  border: 0px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+div {
+  box-sizing: border-box;
+}
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+/* 全局公用样式 */
+.header-index {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.footer-index {
+  background-color: #242031 !important;
+}
+.footer-index .join {
+  color: #fff !important;
+  background-color: #a71828 !important;
+}
+.header {
+  position: absolute;
+  z-index: 50;
+  width: 100%;
+  min-width: 1400px;
+  height: 140px;
+}
+.header .content {
+  margin: 0 auto;
+  width: 1400px;
+  line-height: 140px;
+  position: relative;
+}
+.header .content .logo {
+  width: 250px;
+  height: 80px;
+  vertical-align: middle;
+}
+.header .content .right {
+  display: inline-block;
+  margin: 0 0 0 27px;
+  line-height: normal;
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+}
+.header .content .right .navigation {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header .content .right .navigation li {
+  color: #fff !important;
+  font-size: 18px;
+  display: inline-block;
+  margin: 29px 10px;
+  cursor: pointer;
+  width: 78px;
+  text-align: center;
+  height: 42px;
+  line-height: 50px;
+  border-bottom: 6px solid transparent;
+}
+.header .content .right .navigation li:hover {
+  border-bottom: 6px solid #f3243c;
+}
+.header .content .right .search {
+  width: 200px;
+  height: 40px;
+  vertical-align: middle;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  display: inline-block;
+}
+.header .content .right .search .icon {
+  vertical-align: text-bottom;
+  width: 22px;
+  height: 22px;
+  margin: 0 0 0 14px;
+}
+.header .content .right .search input {
+  background-color: transparent;
+  width: 150px;
+  height: 40px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  margin: 0 0 17px;
+  font-size: 16px;
+}
+.header .content .right .language {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f3243c;
+  font-size: 16px;
+}
+.footer {
+  width: 100%;
+  min-width: 1400px;
+  height: 260px;
+  background-color: #a71828;
+}
+.footer .content {
+  width: 1400px;
+  height: 260px;
+  margin: 0 auto;
+}
+.footer .content .logo {
+  float: left;
+  width: 250px;
+  height: 80px;
+  margin: 90px 0;
+}
+.footer .content .des {
+  float: right;
+  width: 656px;
+  height: 260px;
+  line-height: 260px;
+  text-align: right;
+}
+.footer .content .des .msg {
+  display: inline-block;
+  color: #fff;
+  font-family: '微软雅黑', sans-serif;
+  margin: 0 40px 0 0;
+  line-height: normal;
+  vertical-align: middle;
+}
+.footer .content .des .msg p {
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0 0 32px 0;
+}
+.footer .content .des .msg p span {
+  font-size: 16pt;
+}
+.footer .content .des .msg .join {
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #fff;
+  color: #f3243c;
+  display: inline-block;
+}
+.footer .content .des .qr {
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  vertical-align: middle;
+}
+.footer .content .des .qr img {
+  width: 120px;
+  height: 120px;
+  margin: 0 0 10px 0;
+}
+.footer .content .des .qr p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
