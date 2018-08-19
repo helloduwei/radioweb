@@ -1,6 +1,7 @@
 /* 全局公用样式 */
 @minWidth: 1400px;
 @main_red: #f3243c;
+@main_deepRed: #a71828;
 @main_dark: #242031;
 .textTitle {
   font-family: '微软雅黑', '苹方-简', sans-serif;
@@ -132,15 +133,57 @@
     }
   }
   .banners {
-    img {
+    .banner {
       width: 25%;
+      display: inline-block;
       vertical-align: bottom;
       height: auto;
+      position: relative;
+      cursor: pointer;
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .mask {
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 240px;
+        background-color: rgba(243, 36, 60, 0.9);
+        bottom: 0;
+        .content {
+          width: 100%;
+          margin: 70px 0;
+          color: #fff;
+          font-family: '微软雅黑', '苹方-简', sans-serif;
+          .desc {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            font-size: 22px;
+            line-height: 34px;
+            padding: 0 50px;
+            text-align: justify;
+          }
+          .date {
+            padding: 20px 0 0 50px;
+            font-size: 18px;
+          }
+        }
+      }
+      &:hover {
+        .mask {
+          display: block;
+        }
+      }
     }
   }
   .activity {
     height: 1380px;
-    background-color: #f3243c;
+    background-color: @main_deepRed;
     overflow: hidden;
     .title {
       .textTitle();
@@ -170,7 +213,7 @@
           display: -webkit-box;
           -webkit-line-clamp: 1;
           -webkit-box-orient: vertical;
-          margin: 40px 0 20px 0;
+          margin: 40px 0 30px 0;
         }
         .content {
           font-size: 18px;
@@ -208,10 +251,20 @@
         width: 320px;
         height: 310px;
         display: inline-block;
-        margin: 0 80px 40px 0;
+        margin: 0 40px 40px;
         img {
           width: 100%;
-          height: 100%;
+          height: 250px;
+          display: block;
+        }
+        p {
+          width: 100%;
+          height: 60px;
+          line-height: 60px;
+          font-size: 16px;
+          color: #000;
+          background-color: #fff;
+          text-align: center;
         }
       }
     }
@@ -219,11 +272,11 @@
   .down {
     width: 100%;
     height: 400px;
-    background-color: #a71828;
+    background-color: @main_deepRed;
     overflow: hidden;
     clear: both;
     .content {
-      width: 1200px;
+      width: 1120px;
       margin: 0 auto;
       .name {
         width: 450px;
@@ -243,7 +296,7 @@
           height: 120px;
           margin: 60px 0 0 0;
         }
-        img:last-child {
+        a:last-child img {
           margin: 40px 0 0 0;
         }
       }
