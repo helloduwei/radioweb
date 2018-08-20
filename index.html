@@ -9,6 +9,7 @@
   <title>东方广播网</title>
 </head>
 <body>
+  <!-- 网站头部 -->
   <div class="header header-index">
     <div class="content">
       <img class="logo" src="./img/阿基米德.png" alt="">
@@ -47,13 +48,13 @@
           EN
         </div>
       </div>
-
     </div>
   </div>
+  <!-- 网站内容区 -->
   <div class="content">
+    <!-- 轮播广告 -->
     <div class="swiper">
-      <!-- <img src="./img/阿基米德.png" alt=""> -->
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper" id="swiper-wrapper">
           <div class="swiper-slide">
               <img src="./img/timg1.jpeg" alt="banner_1">
           </div>
@@ -73,12 +74,11 @@
           </div>
       </div>
     </div>
+    <!-- 广告以外内容区 -->
     <div class="info">
-      <div class="pagination">
-        <div class="swiper-pagination-switch"></div>
-        <div class="swiper-pagination-switch"></div>
-        <div class="swiper-pagination-switch"></div>
-      </div>
+      <!-- 广告控制器 -->
+      <div class="pagination" id="pagination"></div>
+      <!-- 动态资讯 -->
       <div class="news">
         <p class="title">
           动态资讯
@@ -101,9 +101,59 @@
         </div>
 
       </div>
+      <!-- 横向四图 -->
       <div class="banners">
-        <img src="./img/timg.jpeg" alt=""><img src="./img/timg1.jpeg" alt=""><img src="./img/timg2.jpeg" alt=""><img src="./img/timg3.jpeg" alt="">
+        <a href="" class="banner">
+          <img src="./img/wst.jpeg" alt="">
+          <div class="mask">
+            <div class="content">
+              <p class="desc">
+                  吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会
+              </p>
+              <div class="date">
+                2018-4-23
+              </div>
+            </div>
+          </div>
+        </a><a href="" class="banner">
+          <img src="./img/demo.jpg" alt="">
+          <div class="mask">
+            <div class="content">
+              <p class="desc">
+                  吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会
+              </p>
+              <div class="date">
+                2018-4-23
+              </div>
+            </div>
+          </div>
+        </a><a href="" class="banner">
+          <img src="./img/wst.jpeg" alt="">
+          <div class="mask">
+            <div class="content">
+              <p class="desc">
+                  吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会
+              </p>
+              <div class="date">
+                2018-4-23
+              </div>
+            </div>
+          </div>
+        </a><a href="" class="banner">
+          <img src="./img/demo.jpg" alt="">
+          <div class="mask">
+            <div class="content">
+              <p class="desc">
+                  吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会
+              </p>
+              <div class="date">
+                2018-4-23
+              </div>
+            </div>
+          </div>
+        </a>
       </div>
+      <!-- 活动专区 -->
       <div class="activity">
         <p class="title">
           活动专区
@@ -136,38 +186,52 @@
             </div>
         </div>
       </div>
+      <!-- 频率介绍 -->
       <div class="frequency">
         <p class="title">
           频率介绍
         </p>
         <div class="contents">
-          <div class="item">
+          <a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>东方资讯新闻广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>经典音乐广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>新闻广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>五星体育广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>东方资讯新闻广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>经典音乐广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>经典音乐广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>东方资讯新闻广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>五星体育广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>新闻广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div><div class="item">
+            <p>新闻广播</p>
+          </a><a href="" class="item">
             <img src="./img/timg.jpeg" alt="">
-          </div>
+            <p>东方资讯新闻广播</p>
+          </a>
         </div>
       </div>
+      <!-- 下载中心 -->
       <div class="down">
         <div class="content">
             <div class="name">
@@ -185,6 +249,7 @@
       </div>
     </div>
   </div>
+  <!-- 网站底部 -->
   <div class="footer footer-index">
     <div class="content">
       <img src="./img/阿基米德.png" alt="" class="logo">
@@ -212,18 +277,30 @@
   <script src="./js/swiper2.7.6.min.js"></script>
   <script>
     window.onload = function() {
+      // 根据图片数量自动创建控制器
+      var swiperWrapper = document.querySelector('#swiper-wrapper')
+      var pagination = document.querySelector('#pagination')
+      var paginationHtml = '<div class="swiper-pagination-switch"></div>'
+      var slides = document.querySelectorAll('.swiper-slide')
+      var duplicate = document.querySelectorAll('.swiper-slide-duplicate')
+      var counts = slides.length - duplicate.length
+      var htmlStr = ''
+      for (var i = 0; i < counts; i++ ){
+        htmlStr += paginationHtml
+      }
+      pagination.innerHTML = htmlStr
+      // 初始化轮播插件
       var screenWidth = window.innerWidth
       var mySwiper = new Swiper('.swiper',{
         autoplay: 3000,
         loop: true,
         calculateHeight: true,
         // cssWidthAndHeight: true,
-        // width: screenWidth,
         roundLengths: false,
         paginationClickable: true,
         pagination: '.pagination'
       })
-
+      // 初始化轮播插件控制器
       var toLeft = document.querySelector('#swiper-prev')
       var toRight = document.querySelector('#swiper-next')
       toLeft.addEventListener('click', function() {
