@@ -3,7 +3,7 @@ body {
 }
 .main {
   width: 100%;
-  min-width: 1440px;
+  min-width: 1400px;
   height: auto;
   background: url(../img/背景.png) 100% top no-repeat;
   padding: 140px 0 0 0;
@@ -11,16 +11,16 @@ body {
 }
 .main .bg {
   width: 100%;
-  min-width: 1440px;
+  min-width: 1400px;
   background-color: rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
 .main .bg .wrapper {
-  width: 1440px;
+  width: 1400px;
   margin: 0 auto;
 }
 .main .bg .wrapper .title {
-  margin: 70px 0 10px 20px;
+  margin: 70px 0 10px 15px;
   font-family: '微软雅黑', '苹方-简', sans-serif;
   font-size: 30px;
   color: #fff;
@@ -28,7 +28,7 @@ body {
 .main .bg .wrapper .item {
   width: 320px;
   height: 360px;
-  margin: 30px 20px;
+  margin: 30px 15px;
   display: inline-block;
 }
 .main .bg .wrapper .item img {
@@ -45,6 +45,7 @@ body {
 .main .bg .wrapper .item .desc .detail {
   font-size: 18px;
   margin: 0 0 10px 0;
+  color: #000;
 }
 .main .bg .wrapper .item .desc .date {
   font-size: 14px;

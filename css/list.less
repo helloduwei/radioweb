@@ -1,26 +1,27 @@
 @main_dark: #242031;
 @main_red: #f3243c;
 @main_deepRed: #a71828;
+@min_width: 1400px;
 body {
   background-color: @main_dark;
 }
 .main {
   width: 100%;
-  min-width: 1440px;
+  min-width: @min_width;
   height: auto;
   background: url(../img/背景.png) 100% top no-repeat;
   padding: 140px 0 0 0;
   overflow: hidden;
   .bg {
     width: 100%;
-    min-width: 1440px;
+    min-width: @min_width;
     background-color: rgba(0, 0, 0, 0.3);
     overflow: hidden;
     .wrapper {
-      width: 1440px;
+      width: @min_width;
       margin: 0 auto;
       .title {
-        margin: 70px 0 10px 20px;
+        margin: 70px 0 10px 15px;
         font-family: '微软雅黑', '苹方-简', sans-serif;
         font-size: 30px;
         color: #fff;
@@ -28,7 +29,7 @@ body {
       .item {
         width: 320px;
         height: 360px;
-        margin: 30px 20px;
+        margin: 30px 15px;
         display: inline-block;
         img {
           width: 100%;
@@ -43,6 +44,7 @@ body {
           .detail {
             font-size: 18px;
             margin: 0 0 10px 0;
+            color: #000;
           }
           .date {
             font-size: 14px;
