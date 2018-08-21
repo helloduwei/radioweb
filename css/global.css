@@ -35,12 +35,20 @@ p {
 .header-index {
   background-color: rgba(0, 0, 0, 0.4);
 }
+.header-index .navigation li:hover {
+  border-bottom: 4px solid #f3243c !important;
+}
+.header-index .language {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
 .footer-index {
   background-color: #242031 !important;
 }
 .footer-index .join {
-  color: #fff !important;
   background-color: #a71828 !important;
+}
+.footer-index .join a {
+  color: #fff !important;
 }
 .header {
   position: absolute;
@@ -74,7 +82,7 @@ p {
   color: #fff !important;
   font-size: 18px;
   display: inline-block;
-  margin: 29px 10px;
+  margin: 29px 13px;
   cursor: pointer;
   width: 78px;
   text-align: center;
@@ -83,7 +91,7 @@ p {
   border-bottom: 4px solid transparent;
 }
 .header .content .right .navigation li:hover {
-  border-bottom: 4px solid #f3243c;
+  border-bottom: 4px solid #fff;
 }
 .header .content .right .search {
   width: 200px;
@@ -92,6 +100,7 @@ p {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 100px;
   display: inline-block;
+  margin-left: 7px;
 }
 .header .content .right .search .icon {
   vertical-align: text-bottom;
@@ -118,7 +127,7 @@ p {
   text-align: center;
   vertical-align: middle;
   margin: 0 0 0 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #fff;
   color: #f3243c;
   font-size: 16px;
 }
@@ -169,8 +178,10 @@ p {
   font-size: 24px;
   text-align: center;
   background-color: #fff;
-  color: #f3243c;
   display: inline-block;
+}
+.footer .content .des .msg .join a {
+  color: #a71828;
 }
 .footer .content .des .qr {
   display: inline-block;

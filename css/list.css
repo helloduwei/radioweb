@@ -1,0 +1,91 @@
+body {
+  background-color: #242031;
+}
+.main {
+  width: 100%;
+  min-width: 1440px;
+  height: auto;
+  background: url(../img/背景.png) 100% top no-repeat;
+  padding: 140px 0 0 0;
+  overflow: hidden;
+}
+.main .bg {
+  width: 100%;
+  min-width: 1440px;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.main .bg .wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.main .bg .wrapper .title {
+  margin: 70px 0 10px 20px;
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+.main .bg .wrapper .item {
+  width: 320px;
+  height: 360px;
+  margin: 30px 20px;
+  display: inline-block;
+}
+.main .bg .wrapper .item img {
+  width: 100%;
+  height: 240px;
+  display: block;
+}
+.main .bg .wrapper .item .desc {
+  width: 100%;
+  height: 120px;
+  background-color: #fff;
+  padding: 20px;
+}
+.main .bg .wrapper .item .desc .detail {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+.main .bg .wrapper .item .desc .date {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.main .bg .wrapper .pageNumbers {
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin: 40px 0 70px;
+}
+.main .bg .wrapper .pageNumbers .number,
+.main .bg .wrapper .pageNumbers .dots,
+.main .bg .wrapper .pageNumbers .prevPage,
+.main .bg .wrapper .pageNumbers .nextPage {
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  display: inline-block;
+  border: 1px solid #fff;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.main .bg .wrapper .pageNumbers .number {
+  width: 50px;
+  height: 50px;
+}
+.main .bg .wrapper .pageNumbers .active {
+  background-color: #a71828;
+  border-color: #a71828;
+  color: #fff;
+}
+.main .bg .wrapper .pageNumbers .dots {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  cursor: default;
+}
+.main .bg .wrapper .pageNumbers .prevPage,
+.main .bg .wrapper .pageNumbers .nextPage {
+  padding: 0 12px;
+  display: inline-block;
+}
