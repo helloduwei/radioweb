@@ -4,7 +4,7 @@ const fs = require('fs')
 const app = express()
 const port = 8088
 const cheerio = require('cheerio')
-const lessStr = '<script src="less.js"></script><script>less.watch()</script>'
+const lessStr = '<script src="./js/less.js"></script><script>less.watch()</script>'
 const html = process.argv[2] + '.html'
 
 fs.readFile(html, 'utf-8', function(err, data) {

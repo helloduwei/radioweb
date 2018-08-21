@@ -40,8 +40,10 @@ p {
 .footer-index {
   background-color: @main_dark !important;
   .join {
-    color: #fff !important;
     background-color: @main_deepRed !important;
+    a {
+      color: #fff !important;
+    }
   }
 }
 // 头部样式
@@ -130,7 +132,7 @@ p {
   width: 100%;
   min-width: @minWidth;
   height: 260px;
-  background-color: #a71828;
+  background-color: @main_deepRed;
   .content {
     width: @minWidth;
     height: 260px;
@@ -169,8 +171,10 @@ p {
           font-size: 24px;
           text-align: center;
           background-color: #fff;
-          color: @main_red;
           display: inline-block;
+          a {
+            color: @main_deepRed;
+          }
         }
       }
       .qr {
