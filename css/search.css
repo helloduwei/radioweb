@@ -1,0 +1,47 @@
+body {
+  background-color: #242031;
+}
+.main {
+  width: 100%;
+  min-width: 1400px;
+  height: auto;
+  background: url(../img/背景.png) 100% top no-repeat;
+  padding: 140px 0 0 0;
+  overflow: hidden;
+}
+.main .bg {
+  width: 100%;
+  min-width: 1400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.main .bg .wrapper {
+  width: 1400px;
+  height: 675px;
+  margin: 0 auto;
+  color: #fff;
+}
+.main .bg .wrapper .fail {
+  display: block;
+  width: 200px;
+  height: 135px;
+  margin: 80px auto 50px;
+}
+.main .bg .wrapper .msg {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 60px;
+}
+.main .bg .wrapper .msg span {
+  font-weight: bold;
+  color: #a71828;
+}
+.main .bg .wrapper .sgst {
+  font-size: 24px;
+  line-height: 60px;
+  margin: 0 0 0 396px;
+  list-style-type: disc;
+}
+.main .bg .wrapper .sgst li {
+  margin: 0 0 0 30px;
+}

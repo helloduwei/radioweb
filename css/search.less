@@ -1,0 +1,53 @@
+// 公共声明
+@main_dark: #242031;
+@main_red: #f3243c;
+@main_deepRed: #a71828;
+@min_width: 1400px;
+// 页面样式
+body {
+  background-color: @main_dark;
+}
+.main {
+  width: 100%;
+  min-width: @min_width;
+  height: auto;
+  background: url(../img/背景.png) 100% top no-repeat;
+  padding: 140px 0 0 0;
+  overflow: hidden;
+  .bg {
+    width: 100%;
+    min-width: @min_width;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    .wrapper {
+      width: @min_width;
+      height: 675px;
+      margin: 0 auto;
+      color: #fff;
+      .fail {
+        display: block;
+        width: 200px;
+        height: 135px;
+        margin: 80px auto 50px;
+      }
+      .msg {
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 60px;
+        span {
+          font-weight: bold;
+          color: @main_deepRed;
+        }
+      }
+      .sgst {
+        font-size: 24px;
+        line-height: 60px;
+        margin:  0 0 0 396px;
+        list-style-type: disc;
+        li {
+          margin: 0 0 0 30px;
+        }
+      }
+    }
+  }
+}
