@@ -46,6 +46,11 @@ body {
   font-size: 18px;
   margin: 0 0 10px 0;
   color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 .main .bg .wrapper .item .desc .date {
   font-size: 14px;

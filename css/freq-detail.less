@@ -1,0 +1,115 @@
+// 公共声明
+@main_dark: #242031;
+@main_red: #f3243c;
+@main_deepRed: #a71828;
+@min_width: 1400px;
+// 页面样式
+body {
+  background-color: @main_dark;
+}
+.main {
+  width: 100%;
+  min-width: @min_width;
+  height: auto;
+  background: url(../img/背景.png) 100% top no-repeat;
+  padding: 140px 0 0 0;
+  overflow: hidden;
+  .bg {
+    width: 100%;
+    min-width: @min_width;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    .wrapper {
+      width: @min_width;
+      height: auto;
+      margin: 0 auto;
+      color: #fff;
+      .title {
+        margin: 70px 0 50px 0;
+        font-family: '微软雅黑', '苹方-简', sans-serif;
+        font-size: 30px;
+        color: #fff;
+      }
+      .container {
+        background-color: #fff;
+        color: #000;
+        overflow: hidden;
+        padding: 0 0 140px 0;
+        .headimg {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        .section {
+          width: 1280px;
+          margin: 0 auto;
+          .article {
+            padding: 60px 0 90px;
+            font-size: 30px;
+            line-height: 40px;
+            // font-weight: lighter;
+            p {
+              line-height: 58px;
+              text-align: justify;
+              margin: 30px 0;
+              &:first-child {
+                margin-top: 0;
+              }
+            }
+          }
+          .enterHome {
+            display: block;
+            width: 200px;
+            height: 60px;
+            margin: 0 auto 120px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 24px;
+            color: #fff;
+            background-color: @main_deepRed;
+          }
+          .handler {
+            padding: 30px 0;
+            font-size: 24px;
+            border-bottom: 1px solid #bdbdbd;
+          }
+          .star {
+            width: 100%;
+            height: 340px;
+            margin: 50px 0 0 0;
+            img {
+              width: 240px;
+              height: 340px;
+              vertical-align: bottom;
+            }
+            .info {
+              display: inline-block;
+              margin: 0 0 0 40px;
+              width: 1000px;
+              height: 340px;
+              p {
+                color: #666;
+                font-size: 16px;
+                margin: 0 0 10px 0;
+              }
+              .desc {
+                overflow : hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+              }
+              .name, .desc, .recommand {
+                margin: 0 0 40px 0;
+              }
+              .name {
+                color: #000;
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
