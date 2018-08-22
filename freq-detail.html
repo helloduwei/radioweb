@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/swiper2.7.6.css">
   <link rel="stylesheet" href="./css/global.css">
   <link rel="stylesheet" href="./css/freq-detail.css">
   <title>东方广播网</title>
@@ -112,6 +113,49 @@
           </div>
         </div>
       </div>
+      <p class="otherFreqTitle">
+        其他频率
+      </p>
+      <div class="otherFreq">
+        <div class="swiper-control">
+            <img class="swiper-prev" id="swiper-prev" src="./img/left.png" alt="">
+            <img class="swiper-next" id="swiper-next" src="./img/right.png" alt="">
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper" id="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="./img/timg.jpeg" alt="banner_1">
+                  <p class="desc">东广新闻资讯广播</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="./img/timg1.jpeg" alt="banner_1">
+                  <p class="desc">东广新闻资讯广播</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="./img/timg2.jpeg" alt="banner_1">
+                  <p class="desc">东广新闻资讯广播</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="./img/timg3.jpeg" alt="banner_1">
+                  <p class="desc">东广新闻资讯广播</p>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img src="./img/timg.jpeg" alt="banner_1">
+                  <p class="desc">东广新闻资讯广播</p>
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- 网站底部 -->
@@ -139,5 +183,24 @@
       </div>
     </div>
   </div>
+  <script src="./js/swiper2.7.6.min.js"></script>
+  <script>
+    // 初始化轮播插件
+    var mySwiper = new Swiper('.swiper-container',{
+      loop: false,
+      calculateHeight: false,
+      roundLengths: false,
+      slidesPerView: 4
+    })
+    // 设置轮播插件左右按钮
+    var toLeft = document.querySelector('#swiper-prev')
+    var toRight = document.querySelector('#swiper-next')
+    toLeft.addEventListener('click', function() {
+      mySwiper.swipePrev()
+    })
+    toRight.addEventListener('click', function() {
+      mySwiper.swipeNext()
+    })
+  </script>
 </body>
 </html>
