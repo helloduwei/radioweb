@@ -1,0 +1,147 @@
+body {
+  background-color: #242031;
+}
+.main {
+  width: 100%;
+  min-width: 1400px;
+  height: auto;
+  background: url(../img/背景.png) 100% top no-repeat;
+  padding: 140px 0 0 0;
+  overflow: hidden;
+}
+.main .bg {
+  width: 100%;
+  min-width: 1400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.main .bg .wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+.main .bg .wrapper .title {
+  margin: 70px 0 10px 15px;
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+.main .bg .wrapper .qrs {
+  width: 900px;
+  height: 255px;
+  margin: 0 auto 130px;
+}
+.main .bg .wrapper .qrs .qr {
+  display: inline-block;
+  width: 380px;
+  height: 255px;
+  text-align: center;
+  margin-right: 140px;
+}
+.main .bg .wrapper .qrs .qr .code {
+  width: 165px;
+  height: 165px;
+  margin-bottom: 30px;
+}
+.main .bg .wrapper .qrs .qr .name {
+  height: 40px;
+  line-height: 40px;
+  font-size: 30px;
+  color: #fff;
+}
+.main .bg .wrapper .qrs .qr .name img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.main .bg .wrapper .qrs .qr:last-child {
+  margin-right: 0;
+}
+.main .bg .wrapper .app {
+  background-color: #fff;
+  padding: 0 0 10px 0;
+  width: 1130px;
+  height: auto;
+  margin: 0 auto 100px;
+}
+.main .bg .wrapper .app .head {
+  background-color: #bf0427;
+  width: 100%;
+  height: 230px;
+  padding: 0 50px;
+  clear: both;
+}
+.main .bg .wrapper .app .head .logo {
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin: 50px 0 0 0;
+}
+.main .bg .wrapper .app .head .qrWrapper {
+  width: 340px;
+  height: 164px;
+  float: right;
+  margin: 33px 0 0 0;
+}
+.main .bg .wrapper .app .head .qrWrapper .scanner {
+  width: 130px;
+  height: 164px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  margin: 0 80px 0 0;
+}
+.main .bg .wrapper .app .head .qrWrapper .scanner img {
+  width: 130px;
+  height: 130px;
+}
+.main .bg .wrapper .app .head .qrWrapper .scanner:last-child {
+  margin: 0;
+}
+.main .bg .wrapper .app .shots {
+  width: 1030px;
+  height: 520px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bdbdbd;
+  overflow: hidden;
+}
+.main .bg .wrapper .app .shots .swiper {
+  width: 850px;
+  height: 400px;
+  margin: 60px auto;
+}
+.main .bg .wrapper .app .shots .swiper .swiper-slide {
+  width: 224px;
+  height: 400px;
+}
+.main .bg .wrapper .app .shots .swiper-controller {
+  width: 1030px;
+  height: 30px;
+  margin: 245px auto;
+  position: absolute;
+}
+.main .bg .wrapper .app .shots .swiper-controller img {
+  width: 30px;
+  height: 30px;
+}
+.main .bg .wrapper .app .shots .swiper-controller .swiperLeft {
+  float: left;
+}
+.main .bg .wrapper .app .shots .swiper-controller .swiperRight {
+  float: right;
+}
+.main .bg .wrapper .app .introduce {
+  width: 850px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+.main .bg .wrapper .app .introduce .title {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 24px 0;
+}
+.main .bg .wrapper .app .introduce p {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 10px 0;
+}
