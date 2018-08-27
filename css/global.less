@@ -36,11 +36,12 @@ p {
 @main_dark: #242031;
 // 首页头部底部特殊样式
 .header-index {
-  background-color: rgba(0, 0, 0, 0.4);
+  // background-color: rgba(0, 0, 0, 0.4);
+  background: url(../img/headerBg.png) repeat-x;
   .navigation {
     li {
       &:hover {
-        border-bottom: 4px solid @main_red !important;
+        border-bottom: 3px solid @main_red !important;
       }
     }
   }
@@ -63,20 +64,25 @@ p {
   z-index: 50;
   width: 100%;
   min-width: @minWidth;
-  height: 140px;
+  height: 102px;
   .content {
     margin: 0 auto;
+    text-align: center;
     width: @minWidth;
-    line-height: 140px;
+    height: 102px;
+    line-height: 102px;
     position: relative;
     .logo {
-      width: 220px;
-      height: 60px;
+      // width: 220px;
+      // height: 60px;
       vertical-align: middle;
     }
     .right {
+      vertical-align: middle;
       display: inline-block;
-      margin: 0 0 0 27px;
+      margin: 0 0 0 40px;
+      height: 102px;
+      line-height: 102px;
       line-height: normal;
       font-family: '微软雅黑', '苹方-简', sans-serif;
       .navigation {
@@ -84,57 +90,56 @@ p {
         vertical-align: middle;
         li{
           color: #fff !important;
-          font-size: 18px;
+          font-size: 14px;
           display: inline-block;
-          margin: 29px 13px;
+          margin: 32px 10px;
           cursor: pointer;
-          width: 78px;
+          width: 58px;
           text-align: center;
-          height: 45px;
-          line-height: 53px;
-          border-bottom: 4px solid transparent;
+          // height: 45px;
+          line-height: 40px;
+          border-bottom: 3px solid transparent;
           &:hover {
-            border-bottom: 4px solid #fff;
+            border-bottom: 3px solid #fff;
           }
         }
       }
       .search {
-        width: 200px;
-        height: 40px;
+        width: 150px;
+        height: 27px;
+        line-height: 27px;
         vertical-align: middle;
         background-color: rgba(255, 255, 255, 0.2);
         border-radius: 100px;
         display: inline-block;
-        margin-left: 7px;
+        margin-left: 10px;
         .icon {
-          vertical-align: text-bottom;
-          width: 22px;
-          height: 22px;
-          margin: 0 0 0 14px;
+          vertical-align: middle;
+          margin: 0 0 0 8px;
         }
         input {
           background-color: transparent;
-          width: 150px;
-          height: 40px;
+          width: 110px;
+          height: 20px;
           border: 0;
           outline: none;
           color: #fff;
-          margin: 0 0 17px;
-          font-size: 16px;
+          vertical-align: middle;
+          font-size: 14px;
         }
       }
       .language {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         border-radius: 4px;
-        line-height: 40px;
+        line-height: 30px;
         text-align: center;
         vertical-align: middle;
         margin: 0 0 0 20px;
         background-color: #fff;
         color: @main_red;
-        font-size: 16px;
+        font-size: 12px;
       }
     }
   }
@@ -143,44 +148,44 @@ p {
 .footer {
   width: 100%;
   min-width: @minWidth;
-  height: 260px;
+  height: 244px;
   background-color: @main_deepRed;
   .content {
-    width: @minWidth;
-    height: 260px;
+    width: 1040px;
+    height: 244px;
     margin: 0 auto;
     .logo {
       float: left;
-      width: 240px;
-      height: 66px;
-      margin: 90px 0;
+      // width: 240px;
+      // height: 66px;
+      margin: 82px 0;
     }
     .des {
       float: right;
       width: 656px;
-      height: 260px;
-      line-height: 260px;
+      height: 244px;
+      line-height: 244px;
       text-align: right;
       .msg {
         display: inline-block;
         color: #fff;
         font-family: '微软雅黑', sans-serif;
-        margin: 0 40px 0 0;
+        margin: 0 84px 0 0;
         line-height: normal;
         vertical-align: middle;
         p {
-          font-size: 14px;
-          line-height: 30px;
-          margin: 0 0 32px 0;
+          font-size: 12px;
+          line-height: 28px;
+          margin: 0 0 28px 0;
           span {
-            font-size: 18px;
+            font-size: 15px;
           }
         }
         .join {
-          width: 200px;
-          height: 60px;
-          line-height: 60px;
-          font-size: 24px;
+          width: 150px;
+          height: 46px;
+          line-height: 46px;
+          font-size: 18px;
           text-align: center;
           background-color: #fff;
           display: inline-block;
@@ -195,13 +200,13 @@ p {
         line-height: normal;
         vertical-align: middle;
         img {
-          width: 120px;
-          height: 120px;
+          // width: 120px;
+          // height: 120px;
           margin: 0 0 10px 0;
         }
         p {
           color: #fff;
-          font-size: 16px;
+          font-size: 12px;
           text-align: center;
         }
       }

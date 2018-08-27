@@ -13,17 +13,17 @@
   <!-- 网站头部 -->
   <div class="header header-index">
     <div class="content">
-      <img class="logo" src="./img/LOGOH.png" alt="">
+      <img class="logo" src="./img/logo.png" alt="">
       <div class="right">
         <ul class="navigation">
           <li>
             <a href="">首页</a>
           </li>
           <li>
-              <a href="">动态资讯</a>
+              <a href="">热点新闻</a>
           </li>
           <li>
-              <a href="">活动专区</a>
+              <a href="">活动资讯</a>
           </li>
           <li>
               <a href="">旗下频率</a>
@@ -53,42 +53,76 @@
   </div>
   <!-- 网站内容区 -->
   <div class="content">
-    <!-- 轮播广告 -->
-    <div class="swiper">
-      <div class="swiper-wrapper" id="swiper-wrapper">
-          <div class="swiper-slide">
-            <a href="">
-              <img src="./img/timg1.jpeg" alt="banner_1">
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a href="">
-              <img src="./img/timg2.jpeg" alt="banner_1">
-            </a>
-          </div>
-          <div class="swiper-slide">
-            <a href="">
-              <img src="./img/timg3.jpeg" alt="banner_1">
-            </a>
-          </div>
-      </div>
-      <div class="swiper-control">
-          <div id="swiper-prev">
-            <img src="./img/prev.png" alt="">
-          </div>
-          <div id="swiper-next">
-            <img src="./img/next.png" alt="">
-          </div>
-      </div>
-    </div>
-    <!-- 广告以外内容区 -->
+    <!-- Banner -->
+    <a href="#" class="Bigbanner">
+      <img class="bannerPic" src="./img/timg2.jpeg" alt="banner">
+      <div class="bannerMask"></div>
+    </a>
+    <!-- Banner以外内容区 -->
     <div class="info">
-      <!-- 广告控制器 -->
-      <div class="pagination" id="pagination"></div>
-      <!-- 动态资讯 -->
       <div class="news">
-        <p class="title">
-          动态资讯
+        <!-- 热点新闻 -->
+        <p class="hotTitle">
+          热点新闻
+        </p>
+        <div class="hotContent">
+          <!-- 小轮播 -->
+          <div class="newsImg">
+            <div class="swiper">
+              <div class="swiper-wrapper" id="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="">
+                      <img src="./img/timg1.jpeg" alt="banner_1">
+                      <div class="subTitle">
+                        2018 "纯净 如实""辰山草地广播音乐节五月奏响爱之乐章
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="">
+                      <img src="./img/timg2.jpeg" alt="banner_1">
+                      <div class="subTitle">
+                        2018 "纯净 如实""辰山草地广播音乐节五月奏响爱之乐章
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="">
+                      <img src="./img/timg3.jpeg" alt="banner_1">
+                      <div class="subTitle">
+                        2018 "纯净 如实""辰山草地广播音乐节五月奏响爱之乐章
+                      </div>
+                    </a>
+                  </div>
+              </div>
+              <div class="swiper-control">
+                  <div id="swiper-prev">
+                    <img src="./img/prev.png" alt="">
+                  </div>
+                  <div id="swiper-next">
+                    <img src="./img/next.png" alt="">
+                  </div>
+              </div>
+            </div>
+            <div class="pagination" id="pagination"></div>
+          </div>
+          <!-- 新闻链接 -->
+          <ul class="hotLinks">
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+            <li><a href="#">全面从严治党好经验，稳中求进开新局，不忘初心，牢记使命</a></li>
+          </ul>
+        </div>
+        <!-- 活动资讯 -->
+        <p class="actTitle">
+          活动资讯
         </p>
         <div class="article">
           <img class="video" src="./img/timg.jpeg" alt="">
@@ -97,6 +131,7 @@
                 <img src="./img/arrow.png" alt="">More...
             </a>
           </div>
+          <div class="line"></div>
           <div class="text">
             <p class="articleTitle">
               张杰周笔畅分获最 佳男/女歌手 莫文蔚夺得爱回收•第25届《东方风云榜》音乐盛典登陆上海梅赛德斯奔驰文化中心
@@ -105,10 +140,11 @@
               3月26日，爱回收•第25届《东方风云榜》音乐盛典登陆上海梅赛德斯奔驰文化中心。莫文蔚、张杰、张艺兴、大张伟、容祖儿、周笔畅、3月26日，爱回收•第25届《东方风云榜》音乐盛典登陆上海梅赛德斯奔驰文化中心。莫文蔚、张杰、张艺兴、大张伟、容祖儿、周笔畅，3月26日，爱回收•第25届《东方风云榜》音乐盛典登陆上海梅赛德斯奔驰文化中心。莫文蔚、张杰、张艺兴、大张伟、容祖儿、周笔畅
             </p>
           </div>
+          <img src="./img/rect.png" alt="" class="rectBg">
         </div>
-
+        <img src="./img/dimond.png" alt="" class="dimondBg">
       </div>
-      <!-- 横向四图 -->
+      <!-- 横向5图 -->
       <div class="banners">
         <a href="" class="banner">
           <img src="./img/wst.jpeg" alt="">
@@ -158,10 +194,22 @@
               </div>
             </div>
           </div>
+        </a><a href="" class="banner">
+          <img src="./img/wst.jpeg" alt="">
+          <div class="mask">
+            <div class="content">
+              <p class="desc">
+                  吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会,吴莫愁化身“教师兼编导”山顶小学唱响校园演唱会
+              </p>
+              <div class="date">
+                2018-4-23
+              </div>
+            </div>
+          </div>
         </a>
       </div>
       <!-- 活动专区 -->
-      <div class="activity">
+      <!-- <div class="activity">
         <p class="title">
           活动专区
         </p>
@@ -192,7 +240,7 @@
               <a href=""><img src="./img/arrow.png" alt="">More...</a>
             </div>
         </div>
-      </div>
+      </div> -->
       <!-- 频率介绍 -->
       <div class="frequency">
         <p class="title">
@@ -246,10 +294,10 @@
               </div>
               <div class="links">
                   <a href="">
-                    <img src="./img/ajimide.png" alt="" class="link">
+                    <img src="./img/ajimide.jpg" alt="" class="link">
                   </a>
                   <a href="">
-                      <img src="./img/huaxiazi.png" alt="" class="link">
+                      <img src="./img/huaxiazi.jpg" alt="" class="link">
                   </a>
               </div>
         </div>
@@ -259,7 +307,7 @@
   <!-- 网站底部 -->
   <div class="footer footer-index">
     <div class="content">
-      <img src="./img/LOGOF.png" alt="" class="logo">
+      <img src="./img/logo.png" alt="" class="logo">
       <div class="des">
         <div class="msg">
           <p>
@@ -272,7 +320,7 @@
           </div>
         </div>
         <div class="qr">
-          <img src="./img/timg.jpeg" alt="">
+          <img src="./img/qrBottom.png" alt="">
           <p>
             有话想说？<br>
             扫码关注，一键留言

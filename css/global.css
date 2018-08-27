@@ -34,10 +34,10 @@ p {
 }
 /* 全局公用样式 */
 .header-index {
-  background-color: rgba(0, 0, 0, 0.4);
+  background: url(../img/headerBg.png) repeat-x;
 }
 .header-index .navigation li:hover {
-  border-bottom: 4px solid #f3243c !important;
+  border-bottom: 3px solid #f3243c !important;
 }
 .header-index .language {
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -56,22 +56,25 @@ p {
   z-index: 50;
   width: 100%;
   min-width: 1400px;
-  height: 140px;
+  height: 102px;
 }
 .header .content {
   margin: 0 auto;
+  text-align: center;
   width: 1400px;
-  line-height: 140px;
+  height: 102px;
+  line-height: 102px;
   position: relative;
 }
 .header .content .logo {
-  width: 220px;
-  height: 60px;
   vertical-align: middle;
 }
 .header .content .right {
+  vertical-align: middle;
   display: inline-block;
-  margin: 0 0 0 27px;
+  margin: 0 0 0 40px;
+  height: 102px;
+  line-height: 102px;
   line-height: normal;
   font-family: '微软雅黑', '苹方-简', sans-serif;
 }
@@ -81,102 +84,98 @@ p {
 }
 .header .content .right .navigation li {
   color: #fff !important;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
-  margin: 29px 13px;
+  margin: 32px 10px;
   cursor: pointer;
-  width: 78px;
+  width: 58px;
   text-align: center;
-  height: 45px;
-  line-height: 53px;
-  border-bottom: 4px solid transparent;
+  line-height: 40px;
+  border-bottom: 3px solid transparent;
 }
 .header .content .right .navigation li:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 3px solid #fff;
 }
 .header .content .right .search {
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 27px;
+  line-height: 27px;
   vertical-align: middle;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 100px;
   display: inline-block;
-  margin-left: 7px;
+  margin-left: 10px;
 }
 .header .content .right .search .icon {
-  vertical-align: text-bottom;
-  width: 22px;
-  height: 22px;
-  margin: 0 0 0 14px;
+  vertical-align: middle;
+  margin: 0 0 0 8px;
 }
 .header .content .right .search input {
   background-color: transparent;
-  width: 150px;
-  height: 40px;
+  width: 110px;
+  height: 20px;
   border: 0;
   outline: none;
   color: #fff;
-  margin: 0 0 17px;
-  font-size: 16px;
+  vertical-align: middle;
+  font-size: 14px;
 }
 .header .content .right .language {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 4px;
-  line-height: 40px;
+  line-height: 30px;
   text-align: center;
   vertical-align: middle;
   margin: 0 0 0 20px;
   background-color: #fff;
   color: #f3243c;
-  font-size: 16px;
+  font-size: 12px;
 }
 .footer {
   width: 100%;
   min-width: 1400px;
-  height: 260px;
+  height: 244px;
   background-color: #a71828;
 }
 .footer .content {
-  width: 1400px;
-  height: 260px;
+  width: 1040px;
+  height: 244px;
   margin: 0 auto;
 }
 .footer .content .logo {
   float: left;
-  width: 240px;
-  height: 66px;
-  margin: 90px 0;
+  margin: 82px 0;
 }
 .footer .content .des {
   float: right;
   width: 656px;
-  height: 260px;
-  line-height: 260px;
+  height: 244px;
+  line-height: 244px;
   text-align: right;
 }
 .footer .content .des .msg {
   display: inline-block;
   color: #fff;
   font-family: '微软雅黑', sans-serif;
-  margin: 0 40px 0 0;
+  margin: 0 84px 0 0;
   line-height: normal;
   vertical-align: middle;
 }
 .footer .content .des .msg p {
-  font-size: 14px;
-  line-height: 30px;
-  margin: 0 0 32px 0;
+  font-size: 12px;
+  line-height: 28px;
+  margin: 0 0 28px 0;
 }
 .footer .content .des .msg p span {
-  font-size: 18px;
+  font-size: 15px;
 }
 .footer .content .des .msg .join {
-  width: 200px;
-  height: 60px;
-  line-height: 60px;
-  font-size: 24px;
+  width: 150px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 18px;
   text-align: center;
   background-color: #fff;
   display: inline-block;
@@ -191,12 +190,10 @@ p {
   vertical-align: middle;
 }
 .footer .content .des .qr img {
-  width: 120px;
-  height: 120px;
   margin: 0 0 10px 0;
 }
 .footer .content .des .qr p {
   color: #fff;
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
 }
