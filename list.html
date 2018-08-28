@@ -169,7 +169,10 @@
       var laypage = layui.laypage;
       laypage.render({
         elem: 'pageNumbers',
-        count: 120  //页码传进来，需要＊10
+        count: 120, // 数据总数
+        limit: 12, // 每页条数
+        curr: location.hash.replace('#!pageNo=', ''), //当前页码
+        hash: 'pageNo' // 页面跳转所用hash键名
       });
     });
   </script>
