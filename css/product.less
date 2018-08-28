@@ -11,7 +11,7 @@ body {
   min-width: @min_width;
   height: auto;
   background: url(../img/bg.png) 100% top no-repeat;
-  padding: 140px 0 0 0;
+  padding: 102px 0 0 0;
   overflow: hidden;
   .bg {
     width: 100%;
@@ -19,37 +19,39 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     overflow: hidden;
     .wrapper {
-      width: @min_width;
+      width: 980px;
       margin: 0 auto;
       .title {
-        margin: 70px 0 10px 15px;
+        margin: 80px 0 44px 0;
         font-family: '微软雅黑', '苹方-简', sans-serif;
-        font-size: 30px;
+        font-size: 22px;
         color: #fff;
       }
       .qrs {
         width: 900px;
-        height: 255px;
-        margin: 0 auto 130px;
+        height: 198px;
+        margin: 0 auto 105px;
+        text-align: center;
         .qr {
           display: inline-block;
-          width: 380px;
-          height: 255px;
+          width: 270px;
+          height: 198px;
           text-align: center;
-          margin-right: 140px;
+          margin-right: 130px;
           .code {
-            width: 165px;
-            height: 165px;
+            width: 120px;
+            height: 120px;
             margin-bottom: 30px;
           }
           .name {
             height: 40px;
             line-height: 40px;
-            font-size: 30px;
+            font-size: 22px;
             color: #fff;
             img {
               width: 40px;
               height: 40px;
+              margin: 0 2px 0 0;
               vertical-align: middle;
             }
           }
@@ -60,38 +62,49 @@ body {
       }
       .app {
         background-color: #fff;
-        padding: 0 0 10px 0;
-        width: 1130px;
+        // padding: 0 0 10px 0;
+        width: 848px;
         height: auto;
         margin: 0 auto 100px;
         .head {
           background-color: @qr_head;
           width: 100%;
-          height: 230px;
-          padding: 0 50px;
+          height: 172px;
+          padding: 0 36px;
           clear: both;
           .logo {
-            width: 130px;
-            height: 130px;
+            width: 240px;
+            height: 96px;
+            line-height: 96px;
             float: left;
-            margin: 50px 0 0 0;
+            margin: 38px 0 0 0;
+            font-size: 27px;
+            color: #fff;
+            word-break: break-all;
+            img {
+              width: 96px;
+              height: 96px;
+              vertical-align: middle;
+              margin: 0 20px 0 0;
+            }
           }
           .qrWrapper {
-            width: 340px;
-            height: 164px;
+            width: 256px;
+            height: 118px;
             float: right;
             margin: 33px 0 0 0;
             .scanner {
-              width: 130px;
-              height: 164px;
+              width: 98px;
+              height: 118px;
               text-align: center;
               display: inline-block;
               color: #fff;
-              font-size: 24px;
-              margin: 0 80px 0 0;
+              font-size: 18px;
+              margin: 0 60px 0 0;
               img {
-                width: 130px;
-                height: 130px;
+                width: 98px;
+                height: 98px;
+                display: block
               }
             }
             .scanner:last-child {
@@ -100,24 +113,24 @@ body {
           }
         }
         .shots {
-          width: 1030px;
-          height: 520px;
+          width: 780px;
+          height: 392px;
           margin: 0 auto;
           border-bottom: 1px solid #bdbdbd;
           overflow: hidden;
           .swiper {
-            width: 850px;
-            height: 400px;
-            margin: 60px auto;
+            width: 640px;
+            height: 302px;
+            margin: 45px auto;
             .swiper-slide {
-              width: 224px;
-              height: 400px;
+              width: 160px;
+              height: 302px;
             }
           }
           .swiper-controller {
-            width: 1030px;
+            width: 780px;
             height: 30px;
-            margin: 245px auto;
+            margin: 176px auto;
             position: absolute;
             img {
               width: 30px;
@@ -132,16 +145,16 @@ body {
           }
         }
         .introduce {
-          width: 850px;
-          padding: 50px 0;
+          width: 640px;
+          padding: 36px 0;
           margin: 0 auto;
           .title {
-            font-size: 24px;
+            font-size: 18px;
             color: #333;
-            margin: 0 0 24px 0;
+            margin: 0 0 18px 0;
           }
           p {
-            font-size: 16px;
+            font-size: 12px;
             color: #666;
             margin: 0 0 10px 0;
           }

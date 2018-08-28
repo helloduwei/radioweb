@@ -6,7 +6,7 @@ body {
   min-width: 1400px;
   height: auto;
   background: url(../img/bg.png) 100% top no-repeat;
-  padding: 140px 0 0 0;
+  padding: 102px 0 0 0;
   overflow: hidden;
 }
 .main .bg {
@@ -16,41 +16,43 @@ body {
   overflow: hidden;
 }
 .main .bg .wrapper {
-  width: 1400px;
+  width: 980px;
   margin: 0 auto;
 }
 .main .bg .wrapper .title {
-  margin: 70px 0 10px 15px;
+  margin: 80px 0 44px 0;
   font-family: '微软雅黑', '苹方-简', sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
 }
 .main .bg .wrapper .qrs {
   width: 900px;
-  height: 255px;
-  margin: 0 auto 130px;
+  height: 198px;
+  margin: 0 auto 105px;
+  text-align: center;
 }
 .main .bg .wrapper .qrs .qr {
   display: inline-block;
-  width: 380px;
-  height: 255px;
+  width: 270px;
+  height: 198px;
   text-align: center;
-  margin-right: 140px;
+  margin-right: 130px;
 }
 .main .bg .wrapper .qrs .qr .code {
-  width: 165px;
-  height: 165px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 30px;
 }
 .main .bg .wrapper .qrs .qr .name {
   height: 40px;
   line-height: 40px;
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
 }
 .main .bg .wrapper .qrs .qr .name img {
   width: 40px;
   height: 40px;
+  margin: 0 2px 0 0;
   vertical-align: middle;
 }
 .main .bg .wrapper .qrs .qr:last-child {
@@ -58,66 +60,76 @@ body {
 }
 .main .bg .wrapper .app {
   background-color: #fff;
-  padding: 0 0 10px 0;
-  width: 1130px;
+  width: 848px;
   height: auto;
   margin: 0 auto 100px;
 }
 .main .bg .wrapper .app .head {
   background-color: #bf0427;
   width: 100%;
-  height: 230px;
-  padding: 0 50px;
+  height: 172px;
+  padding: 0 36px;
   clear: both;
 }
 .main .bg .wrapper .app .head .logo {
-  width: 130px;
-  height: 130px;
+  width: 240px;
+  height: 96px;
+  line-height: 96px;
   float: left;
-  margin: 50px 0 0 0;
+  margin: 38px 0 0 0;
+  font-size: 27px;
+  color: #fff;
+  word-break: break-all;
+}
+.main .bg .wrapper .app .head .logo img {
+  width: 96px;
+  height: 96px;
+  vertical-align: middle;
+  margin: 0 20px 0 0;
 }
 .main .bg .wrapper .app .head .qrWrapper {
-  width: 340px;
-  height: 164px;
+  width: 256px;
+  height: 118px;
   float: right;
   margin: 33px 0 0 0;
 }
 .main .bg .wrapper .app .head .qrWrapper .scanner {
-  width: 130px;
-  height: 164px;
+  width: 98px;
+  height: 118px;
   text-align: center;
   display: inline-block;
   color: #fff;
-  font-size: 24px;
-  margin: 0 80px 0 0;
+  font-size: 18px;
+  margin: 0 60px 0 0;
 }
 .main .bg .wrapper .app .head .qrWrapper .scanner img {
-  width: 130px;
-  height: 130px;
+  width: 98px;
+  height: 98px;
+  display: block;
 }
 .main .bg .wrapper .app .head .qrWrapper .scanner:last-child {
   margin: 0;
 }
 .main .bg .wrapper .app .shots {
-  width: 1030px;
-  height: 520px;
+  width: 780px;
+  height: 392px;
   margin: 0 auto;
   border-bottom: 1px solid #bdbdbd;
   overflow: hidden;
 }
 .main .bg .wrapper .app .shots .swiper {
-  width: 850px;
-  height: 400px;
-  margin: 60px auto;
+  width: 640px;
+  height: 302px;
+  margin: 45px auto;
 }
 .main .bg .wrapper .app .shots .swiper .swiper-slide {
-  width: 224px;
-  height: 400px;
+  width: 160px;
+  height: 302px;
 }
 .main .bg .wrapper .app .shots .swiper-controller {
-  width: 1030px;
+  width: 780px;
   height: 30px;
-  margin: 245px auto;
+  margin: 176px auto;
   position: absolute;
 }
 .main .bg .wrapper .app .shots .swiper-controller img {
@@ -131,17 +143,17 @@ body {
   float: right;
 }
 .main .bg .wrapper .app .introduce {
-  width: 850px;
-  padding: 50px 0;
+  width: 640px;
+  padding: 36px 0;
   margin: 0 auto;
 }
 .main .bg .wrapper .app .introduce .title {
-  font-size: 24px;
+  font-size: 18px;
   color: #333;
-  margin: 0 0 24px 0;
+  margin: 0 0 18px 0;
 }
 .main .bg .wrapper .app .introduce p {
-  font-size: 16px;
+  font-size: 12px;
   color: #666;
   margin: 0 0 10px 0;
 }
