@@ -6,7 +6,7 @@ body {
   min-width: 1400px;
   height: auto;
   background: url(../img/bg.png) 100% top no-repeat;
-  padding: 140px 0 0 0;
+  padding: 102px 0 0 0;
   overflow: hidden;
 }
 .main .bg {
@@ -16,30 +16,29 @@ body {
   overflow: hidden;
 }
 .main .bg .wrapper {
-  width: 1400px;
-  height: 675px;
+  width: 980px;
+  height: 640px;
   margin: 0 auto;
   color: #fff;
 }
 .main .bg .wrapper .fail {
   display: block;
-  width: 200px;
-  height: 135px;
-  margin: 80px auto 50px;
+  margin: 80px auto 40px;
 }
 .main .bg .wrapper .msg {
   text-align: center;
-  font-size: 30px;
-  margin: 0 0 60px;
+  font-size: 22px;
+  margin: 0 0 36px;
 }
 .main .bg .wrapper .msg span {
   font-weight: bold;
-  color: #a71828;
+  color: #bf0426;
 }
 .main .bg .wrapper .sgst {
-  font-size: 24px;
-  line-height: 60px;
-  margin: 0 0 0 396px;
+  font-size: 18px;
+  line-height: 40px;
+  width: 450px;
+  margin: 0 auto;
   list-style-type: disc;
 }
 .main .bg .wrapper .sgst li {
