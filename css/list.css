@@ -6,7 +6,7 @@ body {
   min-width: 1400px;
   height: auto;
   background: url(../img/bg.png) 100% top no-repeat;
-  padding: 140px 0 0 0;
+  padding: 102px 0 0 0;
   overflow: hidden;
 }
 .main .bg {
@@ -16,37 +16,47 @@ body {
   overflow: hidden;
 }
 .main .bg .wrapper {
-  width: 1400px;
+  width: 1080px;
   margin: 0 auto;
 }
 .main .bg .wrapper .title {
-  margin: 70px 0 10px 15px;
+  margin: 80px 0 10px 15px;
   font-family: '微软雅黑', '苹方-简', sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
 }
 .main .bg .wrapper .item {
-  width: 320px;
-  height: 360px;
-  margin: 30px 15px;
+  width: 240px;
+  height: 270px;
+  margin: 26px 15px;
   display: inline-block;
   vertical-align: middle;
+  position: relative;
+}
+.main .bg .wrapper .item .itemMask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
 }
 .main .bg .wrapper .item img {
   width: 100%;
-  height: 240px;
+  height: 180px;
   display: block;
 }
 .main .bg .wrapper .item .desc {
   width: 100%;
-  height: 120px;
+  height: 90px;
   background-color: #fff;
-  padding: 20px;
+  padding: 15px;
 }
 .main .bg .wrapper .item .desc .detail {
-  font-size: 18px;
-  margin: 0 0 10px 0;
-  color: #000;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  color: #333;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -54,16 +64,18 @@ body {
   -webkit-box-orient: vertical;
 }
 .main .bg .wrapper .item .desc .date {
-  font-size: 14px;
-  color: #bfbfbf;
+  font-size: 12px;
+  color: #999;
+}
+.main .bg .wrapper .item:hover .itemMask {
+  display: block;
 }
 .main .bg .wrapper .pageNumbers {
   color: #fff;
   width: 100%;
-  height: 50px;
+  height: 38px;
   text-align: center;
-  line-height: 50px;
-  margin: 40px 0 70px;
+  margin: 26px 0 60px;
 }
 .main .bg .wrapper .pageNumbers .number,
 .main .bg .wrapper .pageNumbers .dots,
@@ -73,12 +85,15 @@ body {
   display: inline-block;
   border: 1px solid #fff;
   margin: 0 10px;
+  height: 38px;
+  line-height: 38px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 18px;
+  vertical-align: middle;
 }
 .main .bg .wrapper .pageNumbers .number {
-  width: 50px;
-  height: 50px;
+  width: 38px;
+  line-height: 38px;
 }
 .main .bg .wrapper .pageNumbers .active {
   background-color: #a71828;
@@ -95,4 +110,42 @@ body {
 .main .bg .wrapper .pageNumbers .nextPage {
   padding: 0 12px;
   display: inline-block;
+}
+.main .bg .wrapper .pageNumbers .layui-laypage a {
+  font-family: '微软雅黑', '苹方-简', sans-serif;
+  display: inline-block;
+  border: 1px solid #fff;
+  margin: 0 10px;
+  height: 38px;
+  background-color: transparent;
+  line-height: 38px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.main .bg .wrapper .pageNumbers .layui-laypage .layui-laypage-curr {
+  width: 38px;
+  line-height: 38px;
+  height: 38px;
+  margin: 0 10px;
+  padding: 0;
+  font-size: 18px !important;
+  border: 1px solid #a71828;
+}
+.main .bg .wrapper .pageNumbers .layui-laypage .layui-laypage-curr .layui-laypage-em {
+  background-color: #a71828;
+  border-color: #a71828;
+  color: #fff;
+  font-size: 18px !important;
+}
+.main .bg .wrapper .pageNumbers .layui-laypage span {
+  background-color: transparent;
+  border: none;
+}
+.main .bg .wrapper .pageNumbers .layui-laypage .layui-laypage-spr {
+  background-color: transparent;
+  border: none;
+  color: #fff;
 }
