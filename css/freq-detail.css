@@ -6,7 +6,7 @@ body {
   min-width: 1400px;
   height: auto;
   background: url(../img/bg.png) 100% top no-repeat;
-  padding: 140px 0 0 0;
+  padding: 100px 0 0 0;
   overflow: hidden;
 }
 .main .bg {
@@ -16,39 +16,40 @@ body {
   overflow: hidden;
 }
 .main .bg .wrapper {
-  width: 1400px;
+  width: 1050px;
   height: auto;
   margin: 0 auto;
   color: #fff;
 }
 .main .bg .wrapper .title {
-  margin: 70px 0 50px 0;
+  margin: 80px 0 45px 0;
   font-family: '微软雅黑', '苹方-简', sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
 }
 .main .bg .wrapper .container {
   background-color: #fff;
   color: #000;
   overflow: hidden;
-  padding: 0 0 140px 0;
+  padding: 0 0 102px 0;
 }
 .main .bg .wrapper .container .headimg {
-  display: block;
   width: 100%;
   height: auto;
+  display: block;
 }
 .main .bg .wrapper .container .section {
-  width: 1280px;
+  width: 960px;
   margin: 0 auto;
 }
 .main .bg .wrapper .container .section .article {
-  padding: 60px 0 90px;
-  font-size: 30px;
-  line-height: 40px;
+  padding: 45px 0 72px;
+  font-size: 18px;
+  color: #020202;
 }
 .main .bg .wrapper .container .section .article p {
-  line-height: 58px;
+  text-indent: 40px;
+  line-height: 38px;
   text-align: justify;
   margin: 30px 0;
 }
@@ -57,77 +58,81 @@ body {
 }
 .main .bg .wrapper .container .section .enterHome {
   display: block;
-  width: 200px;
-  height: 60px;
-  margin: 0 auto 120px;
-  line-height: 60px;
+  width: 150px;
+  height: 45px;
+  margin: 0 auto 110px;
+  line-height: 45px;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   background-color: #a71828;
 }
 .main .bg .wrapper .container .section .handler {
-  padding: 30px 0;
-  font-size: 24px;
+  padding: 0 0 22px 0;
+  font-size: 18px;
+  width: 960px;
+  margin: 0 auto;
+  color: #333;
+  font-weight: bold;
   border-bottom: 1px solid #bdbdbd;
 }
 .main .bg .wrapper .container .section .star {
   width: 100%;
-  height: 340px;
-  margin: 50px 0 0 0;
+  height: 255px;
+  margin: 37px 0 0 0;
 }
 .main .bg .wrapper .container .section .star img {
-  width: 240px;
-  height: 340px;
+  width: 180px;
+  height: 255px;
   vertical-align: bottom;
 }
 .main .bg .wrapper .container .section .star .info {
   display: inline-block;
-  margin: 0 0 0 40px;
-  width: 1000px;
-  height: 340px;
+  margin: 0 0 0 30px;
+  width: 750px;
+  height: 255px;
 }
 .main .bg .wrapper .container .section .star .info p {
   color: #666;
-  font-size: 16px;
-  margin: 0 0 10px 0;
+  font-size: 14px;
+  margin: 0 0 2px 0;
 }
 .main .bg .wrapper .container .section .star .info .desc {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 .main .bg .wrapper .container .section .star .info .name,
 .main .bg .wrapper .container .section .star .info .desc,
 .main .bg .wrapper .container .section .star .info .recommand {
-  margin: 0 0 40px 0;
+  margin: 0 0 28px 0;
 }
 .main .bg .wrapper .container .section .star .info .name {
   color: #000;
-  font-size: 24px;
+  font-size: 18px;
 }
 .main .bg .otherFreqTitle {
   color: #fff;
-  font-size: 30px;
-  width: 1400px;
-  margin: 120px auto 50px;
+  font-size: 22px;
+  width: 1050px;
+  margin: 80px auto 40px;
 }
 .main .bg .otherFreq {
   height: 310px;
   width: 100%;
-  min-width: 1560px;
-  margin: 0 0 120px 0;
+  min-width: 1172px;
+  margin: 0 0 100px 0;
   position: relative;
   overflow: hidden;
 }
 .main .bg .otherFreq .swiper-control {
   position: absolute;
-  width: 1560px;
-  height: 56px;
+  width: 1172px;
+  height: 43px;
   left: 50%;
-  margin: 92px 0 0 -780px;
+  margin: 72px 0 0 -586px;
 }
 .main .bg .otherFreq .swiper-control .swiper-prev {
   float: left;
@@ -136,27 +141,27 @@ body {
   float: right;
 }
 .main .bg .otherFreq .swiper-container {
-  width: 1440px;
-  height: 310px;
+  width: 1080px;
+  height: 232px;
   margin: 0 auto;
   overflow: hidden;
 }
 .main .bg .otherFreq .swiper-container .swiper-slide {
-  width: 320px !important;
-  height: 310px;
-  margin: 0 20px;
+  width: 240px !important;
+  height: 232px;
+  margin: 0 15px;
 }
 .main .bg .otherFreq .swiper-container .swiper-slide img {
   width: 100%;
-  height: 240px;
+  height: 180px;
   display: block;
 }
 .main .bg .otherFreq .swiper-container .swiper-slide .desc {
   color: #000;
   width: 100%;
-  height: 70px;
-  line-height: 70px;
+  height: 52px;
+  line-height: 52px;
   text-align: center;
-  font-size: 20px;
+  font-size: 14px;
   background-color: #fff;
 }
