@@ -141,6 +141,7 @@
   color: #dfe5e8;
   text-align: center;
   margin: 110px 0 0;
+  margin-bottom: 20px;
 }
 .info .news .hotContent .newsImg {
   display: inline-block;
@@ -194,7 +195,7 @@
   color: #dfe5e8;
   text-align: center;
   margin: 110px 0 0;
-  margin: 90px 0 0 0;
+  margin: 90px 0 20px 0;
 }
 .info .news .article {
   margin: 10px 0 0 0;

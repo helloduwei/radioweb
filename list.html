@@ -171,8 +171,15 @@
         elem: 'pageNumbers',
         count: 120, // 数据总数
         limit: 12, // 每页条数
-        curr: location.hash.replace('#!pageNo=', ''), //当前页码
-        hash: 'pageNo' // 页面跳转所用hash键名
+        curr: location.href.split('_')[1]?location.href.split('_')[1].split('.')[0]-0:1, //当前页码
+        jump: function(obj, first) {
+          if (first) return;
+          var urlBase = 'http://east.net/erc/news/index';
+          var index = obj.curr;
+          var pageIndex = index === 1 ? '' : '_' + index;
+          var finalUrl = urlBase + pageIndex + '.html';
+          window.location.href = finalUrl
+        }
       });
     });
   </script>

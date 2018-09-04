@@ -36,7 +36,7 @@ p {
 .header-index {
   background: url(../img/headerBg.png) repeat-x;
 }
-.header-index .navigation li:hover {
+.header-index .navigation .navItem:hover {
   border-bottom: 3px solid #f3243c !important;
 }
 .header-index .language {
@@ -82,7 +82,7 @@ p {
   display: inline-block;
   vertical-align: middle;
 }
-.header .content .right .navigation li {
+.header .content .right .navigation .navItem {
   color: #fff !important;
   font-size: 14px;
   display: inline-block;
@@ -92,9 +92,31 @@ p {
   text-align: center;
   line-height: 40px;
   border-bottom: 3px solid transparent;
+  position: relative;
 }
-.header .content .right .navigation li:hover {
+.header .content .right .navigation .navItem:hover {
+  cursor: pointer;
   border-bottom: 3px solid #fff;
+}
+.header .content .right .navigation .navItem:hover .subNavi {
+  display: block;
+}
+.header .content .right .subNavi {
+  position: absolute;
+  display: none;
+  margin: 3px 0 0 0;
+}
+.header .content .right .subNavi .subItem {
+  text-align: left;
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 0 0 24px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.header .content .right .subNavi .subItem:hover {
+  background-color: #f42442;
 }
 .header .content .right .search {
   width: 150px;
@@ -108,11 +130,11 @@ p {
 }
 .header .content .right .search .icon {
   vertical-align: middle;
-  margin: 0 0 0 8px;
 }
 .header .content .right .search input {
+  margin: 0 0 0 6px;
   background-color: transparent;
-  width: 110px;
+  width: 104px;
   height: 20px;
   border: 0;
   outline: none;
