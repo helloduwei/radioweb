@@ -119,12 +119,22 @@ body {
           border-bottom: 1px solid #bdbdbd;
           overflow: hidden;
           .swiper {
-            width: 640px;
+            width: 700px;
             height: 302px;
             margin: 45px auto;
             .swiper-slide {
-              width: 160px;
+              overflow: hidden;
+              width: 180px;
               height: 302px;
+              text-align: center;
+              img {
+                cursor: pointer;
+                width: 160px;
+                height: 100%;
+              }
+            }
+            .swiper-slide:last-child {
+              margin: 0;
             }
           }
           .swiper-controller {
@@ -145,7 +155,7 @@ body {
           }
         }
         .introduce {
-          width: 640px;
+          width: 688px;
           padding: 36px 0;
           margin: 0 auto;
           .title {
@@ -162,4 +172,35 @@ body {
       }
     }
   }
+}
+.popUp {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 99;
+  left: 0;
+  top: 0;
+  display: none;
+  .wrapper {
+    // position: absolute;
+    #close {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      right: 10%;
+      top: 10%;
+      cursor: pointer;
+    }
+    #popImg {
+      max-width: 600px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+    }
+  }
+  
 }
